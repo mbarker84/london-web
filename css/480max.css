@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	background-color: #FAFAF6;
+	overflow: auto;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	height: auto;
+	background-color: #292929;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+header {
+	padding: 40px 10px;
+	overflow: auto;
+}
+
+section {
+	padding: 0 10px 20px 10px;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	background-color: #292929;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 1.6%;
+}
+
+.logo-main {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+
+ul {
+	list-style: none;
+	float: right;
+	padding: 5px 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline;
+	list-style: none;
+}
+
+ul li a {
+	float: right;
+	margin: 0 0 10px 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #EFB21B;
+}
+
+ul li a:hover, a:focus {
+	background-color: #FFDD1F;
+}
+
+
+.head {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+}
+
+.button {
+	width: 100%;
+	height: auto;
+	padding: 14px;
+	text-align: center;
+	background-color: #EFB21B;
+	margin: 30px auto 30px auto;
+	text-decoration: none;
+	font-family: 'museo_sans500', Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: white;
+}
+
+.button:hover, .button:focus {
+	background-color: #292929;
+	color: #EFB21B;
+}
+
+
+
+.event-logo {
+	width: 60px;
+	height: 60px;
+}
+
+footer {
+	background-color: #292929;
+}
+
