@@ -3,20 +3,23 @@
 
 nav {
 	background-color: transparent;
-	padding: 0 20px;
 }
 
 header {
 	padding: 40px 20px;
-	max-width: 780px;
+	max-width: 720px;
 }
 
 img.head {
 	margin-bottom: 20px;
 }
 
-section {
-	padding: 0 20px 60px 20px;
+.content {
+	margin: 50px auto;
+}
+
+.event-img {
+    height: 180px;
 }
 
 footer {

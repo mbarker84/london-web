@@ -8,39 +8,11 @@
 
 @font-face {
     font-family: 'proxima_novabold';
-    src: url('proximanova-bold-webfont.eot');
-    src: url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('proximanova-bold-webfont.woff') format('woff'),
-         url('proximanova-bold-webfont.ttf') format('truetype'),
-         url('proximanova-bold-webfont.svg#proxima_novabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'museo_sans500';
-    src: url('museosans_500-webfont.eot');
-    src: url('museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('museosans_500-webfont.woff') format('woff'),
-         url('museosans_500-webfont.ttf') format('truetype'),
-         url('museosans_500-webfont.svg#museo_sans500') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'marketing_scriptregular';
-    src: url('marketingscript-webfont.eot');
-    src: url('marketingscript-webfont.eot?#iefix') format('embedded-opentype'),
-         url('marketingscript-webfont.woff') format('woff'),
-         url('marketingscript-webfont.ttf') format('truetype'),
-         url('marketingscript-webfont.svg#marketing_scriptregular') format('svg');
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.svg#proxima_novabold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -53,14 +25,21 @@ h1.title {
 	margin-bottom: -40px;
 }
 
-h2 {
-	font-family: 'marketing_scriptregular', Arial, Helvetica, sans-serif;
-	font-size: 2em;
+h2  {
+	font-family: 'proxima_novabold', Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+    letter-spacing: .1em;
+    color: #000000;
+    text-transform: uppercase;
+}
+h2.about {
+    letter-spacing: .1em;
+    color: #EFB21B;
 }
 
 h3 {
 	font-family: 'proxima_novabold', Arial, Helvetica, sans-serif;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	letter-spacing: .16em;
 	color: #D63737;
 	line-height: 1.2em;
@@ -71,19 +50,28 @@ h3.fowa {
 	color: #F5841F;
 }
 
-h3.ude {
-	color: #6D2AB7;
+h3.filive {
+	color: #02AEDC;
 }
 	
 
 p {
-	font-family: 'museo_sans500', Arial, Helvetica, sans-serif;
+	font-family: "museo-sans", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 1.1em;
-	line-spacing: 1.2em;
+	line-height: 1.4em;
+    color: #000000;
 }
-
-.about {
+p.about {
 	color: #EFB21B;
+	letter-spacing: .03em;
+    margin-top: 0;
+}
+p.caption {
+    font-size: .8em;
+    color: #EAE6E0;
+    margin-top: 10px;
 }
 
 p.company-name {
@@ -91,7 +79,7 @@ p.company-name {
 	font-size: .8em;
 	color: #292929;
 	letter-spacing: .1em;
-	top: 0;
+	margin-top: 5px;
 	padding: 0;
 	width: 160px;
 	float: left;
@@ -101,29 +89,26 @@ p.company-name:hover, p.company-name:focus {
 	color: #FFDD1F;
 }
 
-@media (max-width: 480px) {
-	p.company-name {
-		display: none;
-	}
-}
-
 @media (max-width: 719px) {
 	p.company-name {
 	display: none;
 }
 }
 
-@media (min-width: 720px) {
-	p.company-name {
-	font-size: .8em;
-}
-}
-
 p.strapline {
-	font-family: 'proxima_novabold', Arial, Helvetica, sans-serif;
+	font-family: "museo-sans", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 1.3em;
+	line-height: 1.25em;
 	text-align: center;
 	color: #292929;
+}
+
+@media (max-width: 719px) {
+	p.strapline {
+	font-size: 1.1em;
+}
 }
 
 @media (min-width: 720px) {
@@ -159,7 +144,6 @@ a:hover, a:focus {
 }
 
 	h2 {
-	font-family: 'marketing_scriptregular', Arial, Helvetica, sans-serif;
 	font-size: 1.8em;
 	}
 	

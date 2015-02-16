@@ -2,7 +2,6 @@
 /* CSS Document */
 
 #wrapper {
-	background-color: #FAFAF6;
 	overflow: auto;
 	width: 100%;
 	height: auto;
@@ -15,7 +14,7 @@ nav {
 	background-color: #292929;
 	overflow: hidden;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 10px;
 }
 
 header {
@@ -33,7 +32,7 @@ footer {
 	background-color: #292929;
 	overflow: hidden;
 	margin: 0 auto;
-	padding: 0 1.6%;
+	padding: 10px;
 }
 
 .logo-main {
@@ -41,14 +40,13 @@ footer {
 	height: 30px;
 	border-radius: 50%;
 	float: left;
-	margin: 5px 10px 0 0;
+	margin: 0 10px 0 0;
 }
 
 
 ul {
 	list-style: none;
 	float: right;
-	padding: 5px 0;
 	margin: 0;
 }
 
@@ -59,7 +57,7 @@ ul li {
 
 ul li a {
 	float: right;
-	margin: 0 0 10px 0;
+	margin: 0 0 0 10px;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -78,24 +76,9 @@ ul li a:hover, a:focus {
 }
 
 .button {
-	width: 100%;
-	height: auto;
-	padding: 14px;
-	text-align: center;
-	background-color: #EFB21B;
 	margin: 30px auto 30px auto;
-	text-decoration: none;
-	font-family: 'museo_sans500', Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-	color: white;
+    font-size: 1.2em;
 }
-
-.button:hover, .button:focus {
-	background-color: #292929;
-	color: #EFB21B;
-}
-
-
 
 .event-logo {
 	width: 60px;

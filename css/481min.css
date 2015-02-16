@@ -1,24 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#wrapper {
-	background-color: #FAFAF6;
-}
-
 nav {
 	width: 100%;
 	height: auto;
 	background-color: #292929;
 	overflow: hidden;
 	margin: 0 auto;
-	padding: 0 10px;
 	max-width: 990px;
+    padding: 10px;
 }
 
 ul {
 	list-style: none;
 	float: right;
-	padding: 5px 0;
 	margin: 0;
 }
 
@@ -29,7 +24,7 @@ ul li {
 
 ul li a {
 	float: right;
-	margin: 0 0 10px 0;
+	margin: 10px 10px 0 10px;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -45,12 +40,11 @@ ul li a:hover, a:focus {
 	height: 40px;
 	border-radius: 50%;
 	float: left;
-	margin: 5px 30px 0 0;
+	margin: 0 30px 0 0;
 }
 
 header {
 	padding: 80px 10px 60px 10px;
-	background-color: transparent;
 	overflow: auto;
 	max-width: 990px;
 	margin: 0 auto;
@@ -70,37 +64,32 @@ ul li a {
 	background-color: #EFB21B;
 }
 
-.button {
-	max-width: 500px;
-	height: auto;
-	padding: 15px;
-	text-align: center;
-	background-color: #EFB21B;
-	margin: 30px auto 10px auto;
-	border: none;
-	text-decoration: none;
-	font-family: 'museo_sans500', Arial, Helvetica, sans-serif;
-	font-size: 1.4em;
-	letter-spacing: .03em;
-	color: white;
-}
-
-.button:hover, .button:focus {
-	background-color: #292929;
-	border: none;
-	color: #FFDD1F;
-}
-
 section {
-	padding: 0 10px 60px 10px;
+	padding: 0 10px 20px 10px;
+}
+
+.span_1_of_2 {
+    margin-right: 10px;
+}
+.span_1_of_2:last-child {
+    margin-right: 0;
+}
+
+.event-img {
+    height: 120px;
+    margin-bottom: 10px;
 }
 
 .event-logo {
-	width: 60px;
-	height: 60px;
+    margin-bottom: 10px;
+}
+
+.event-title {
+    clear: both;
+    margin: 0;
 }
 
 footer {
-	padding: 0 10px;
+	padding: 10px;
 	background-color: #292929;
 }
